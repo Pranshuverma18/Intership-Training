@@ -1,0 +1,9 @@
+table, th, td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 15px 36px 15px 16px;
+}
+td:first-child{
+  padding: 0px 26px;
+  text-align: center;
+}

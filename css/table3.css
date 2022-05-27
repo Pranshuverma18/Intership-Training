@@ -1,0 +1,15 @@
+table, th, td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 15px 36px 15px 16px;
+}
+table.t-head th {
+  background: #b0e0e6;
+}
+tr:last-child {
+  color: #ffffff;
+  background: #b0e0e6;
+}td.color {
+  color: #ffffff;
+  background: #b0e0e6;
+}

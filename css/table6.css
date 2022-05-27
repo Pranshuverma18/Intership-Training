@@ -1,0 +1,37 @@
+td {
+  padding: 10px 0px 0px 0px;
+}
+.center h1 {
+  font-size: 39px;
+  text-align: center;
+  margin: 0px 38px 2px 0px;
+}
+.center {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+.form-input {
+  width: 100%;
+  padding: 12px 0px 12px 12px;
+  border-radius: 6px;
+  border: 1px solid #999999;
+  margin-bottom: 8px;
+}
+.click {
+  padding: 14px 21px;
+  background: #00cb08;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 18px;
+  border: none;
+  /* margin-top: 8px; */
+}

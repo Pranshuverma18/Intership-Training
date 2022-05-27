@@ -1,0 +1,1103 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat&display=swap');
+
+/* banner section */
+.banner {
+  background: url(../images/Rectangle.png);
+  background-size: cover;
+  padding: 0px 0px 80px 0px;
+}
+.inner-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px 0px 0px;
+}
+.logo img {
+  max-width: 263px;
+}
+.menu {
+  text-align: right;
+}
+.menu p {
+  font-size: 17px;
+  color: #3d2514;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+.menu p::before {
+  content: "";
+  background: url(../images/bike.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  margin-left: -50px;
+  width: 42px;
+  height: 31px;
+  margin-top: -3px;
+}
+.menu ul {
+  padding: 0;
+  margin: 0;
+}
+.menu li {
+  display: inline;
+  margin-left: 80px;
+}
+.menu li:first-child {
+  margin: 0;
+}
+.menu a {
+  text-decoration: none;
+  color: #3d2514;
+  font-size: 21px;
+  font-family: 'bebas neue';
+}
+.banner-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+.banner-text {
+  padding: 136px 0px 0px 0px;
+}
+.banner-text p {
+  margin: 0px 0px 40px 0px;
+  padding: 8px 18px;
+  border: 2px dashed;
+  text-transform: uppercase;
+  color: #3d2514;
+  font-size: 24px;
+  display: inline-block;
+  font-family: 'bebas neue';
+}
+.banner-text h1 {
+  font-size: 114px;
+  color: #3d2514;
+  line-height: 80px;
+  text-shadow: 4px 3px white;
+  font-family: 'alfa slab one';
+}
+.banner-text h1 span {
+  font-size: 56px;
+}
+.banner-img img {
+  width: 100%;
+}
+.banner-img p {
+  font-size: 42px;
+  font-family: 'bebas neue';
+  color: #ffffff;
+  bottom: 7px;
+  left: 56%;
+  position: absolute;
+}
+.banner-img p span {
+  font-size: 28px;
+}
+
+/* new section */
+section.new {
+  padding: 75px 0px;
+}
+.img-content {
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  gap: 38px;
+  position: relative;
+}
+.img-content img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.item1 {
+  grid-row: span 2;
+}
+.new-text {
+  position: absolute;
+  top: 6%;
+  color: #ffffff;
+  margin: 0px 0px 0px 30px;
+  font-size: 20px;
+  font-family: 'bebas neue';
+}
+.item3 .new-text {
+  top: 60%;
+}
+
+/* products section */
+.product-text {
+  text-align: center;
+  margin: 0 auto;
+  width: 58%;
+}
+.product-text button {
+  padding: 5px 25px;
+  background: #ffbf45;
+  border: none;
+  font-size: 25px;
+  margin: 0px 0px 26px 0px;
+}
+.product-text button a {
+  text-decoration: none;
+  color: #3d2514;
+  font-family: 'bebas neue';
+}
+.product-text h2 {
+  font-size: 50px;
+  font-family: 'alfa slab one';
+  color: #3d2514;
+  text-transform: uppercase;
+  margin: 0px 0px 20px 0px;
+}
+.product-text p {
+  font-size: 17px;
+  color: #3d2514;
+  font-family: 'Montserrat';
+}
+.productcontent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 60px 0px;
+  text-align: center;
+  align-items: center;
+} 
+.productcontent-text img {
+  margin-bottom: 60px;
+  width: 350px;
+}
+.productcontent-text:nth-child(2n) img {
+  margin-bottom: 36px;
+}
+.productcontent-text h2 {
+  margin-bottom: 18px;
+  font-size: 38px;
+  color: #3d2514;
+  font-family: 'bebas neue';
+}
+.productcontent-text p {
+  font-size: 17px;
+  margin: 0px 0px 30px;
+  font-family: 'Montserrat';
+  color: #3d2514;
+}
+.productcontent-text button {
+  padding: 14px 30px;
+  background: #bf2121;
+  border: none;
+}
+.productcontent-text a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 17px;
+  font-family: 'alfa slab one';
+  text-transform: uppercase;
+}
+ 
+/* events section */
+section.events {
+  padding: 100px 0px;
+}
+.event-chnges {
+  padding: 0;
+}
+.event-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  padding: 25px;
+  box-shadow: 19px 20px 98px -16px #a5a5a5;
+}
+.event-text {
+  padding: 40px 36px 0px 20px;
+}
+.event-text h3 {
+  color: #3d2514;
+  font-size: 29px;
+  font-family: 'Bebas Neue';
+}
+.event-text h2 {
+  font-family: 'alfa slab one';
+  font-size: 42px;
+  color: #3d2514;
+  text-transform: uppercase;
+  margin: 0px 0px 30px 0px;
+}
+.event-text p {
+  font-size: 21px;
+  font-family: 'Montserrat';
+  color: #3d2514;
+  padding: 0px 0px 80px 0px;
+  margin: 0;
+}
+.event-text span {
+  width: 18px;
+  height: 18px;
+  background: #dcdcdc;
+  display: inline-block;
+  border-radius: 50%;
+}
+.event-text span.dot:nth-of-type(1) {
+  background: #ffbf45;
+}
+
+/* booking section */
+section.bookings {
+  padding: 60px 0px 100px 0px;
+}
+.booking-content {
+  text-align: center;
+}
+.booking-content h4 {
+  font-size: 29px;
+  font-family: 'bebas neue';
+  color: #3d2514;
+  margin-bottom: 15px;
+}
+.booking-content h2 {
+  font-family: 'alfa slab one';
+  color: #3d2514;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+.booking-text {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 3em;
+}
+.form-img {
+  text-align: center;
+  margin: 0 auto;
+} 
+.form-img img {
+  max-width: 64px;
+}
+.booking-form {
+  display: grid;
+  grid: inherit;
+}
+.booking-form input {
+  width: 345px;
+  padding: 13px 0px 13px 14px;
+  margin: 0px 0px 25px 25px;
+  font-size: 21px;
+  font-family: 'bebas neue';
+  border: 1px solid #999999;
+}
+.booking-form input:nth-of-type(odd) {
+  margin: 0px 0px 23px 0px;
+}
+.booking-form input::placeholder {
+  color: #3d3d3d;
+}
+.booking-form input:last-child {
+  font-family: 'alfa slab one';
+  background: #bf2121;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.booking-text::before {
+  content: "";
+  position: absolute;
+  background: url(../images/burger6.png) no-repeat;
+  background-size: contain;
+  width: 286px;
+  height: 271px;
+  left: 0;
+  margin-top: -18em;
+}
+.booking-text::after {
+  content: "";
+  position: absolute;
+  background: url(../images/burgermeal2.png) no-repeat;
+  background-size: contain;
+  width: 252px;
+  height: 386px;
+  right: 0;
+  margin-top: 1em;
+}
+
+/* footer section */
+footer {
+  padding: 80px 0px 60px 0px;
+}
+.footer-changes {
+  padding: 0;
+}
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background: url(../images/burgerfooter.png);
+  background-size: cover;
+  color: #ffffff;
+}
+.footer-text {
+  padding: 0px 76px 0px 50px;
+  margin: 80px 0px 0px 0px;
+}
+.footer-text img {
+  max-width: 268px;
+  margin-bottom: 45px;
+}
+.footer-text p {
+  font-size: 17px;
+  font-family: 'Montserrat';
+  margin: 0px;
+  padding: 0px 0px 170px 0px;
+}
+.copyright p {
+  font-family: 'bebas neue';
+  margin: 0px 0px 25px 0px;
+  padding: 0px 0px 0px 50px;
+}
+.address {
+  padding: 30px 0px 0px 0px;
+}
+.address h2 {
+  font-size: 21px;
+  font-family: 'bebas neue';
+  margin-bottom: 25px;
+  padding-left: 14em;
+}
+.address h2::before {
+  content: "";
+  background: url(../images/LocationIcon.png) no-repeat;
+  background-size: contain;
+  width: 31px;
+  height: 35px;
+  position: absolute;
+  margin: -6px 0px 0px -70px;
+}
+.address h2:last-child::before {
+  background: url(../images/Email.png) no-repeat;
+  margin: 0px 0px 0px -68px;
+  background-size: contain;
+}
+.socialicons {
+  text-align: right;
+}
+.socialicons ul {
+  margin: 0;
+  padding: 0px 25px 0px 0px;
+}
+.socialicons ul li a img {
+  max-width: 30px;
+}
+.socialicons li {
+  display: inline;
+  margin: 0px 6px 0px 0px;
+}
+.socialicons a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1440px) {
+   .banner-text {
+    padding: 130px 0px 0px 0px;
+  }
+  .banner-text p {
+    margin: 0px 0px 35px 0px;
+    padding: 5px 15px;
+    font-size: 21px;
+  }
+  .banner-text h1 {
+    font-size: 104px;
+    line-height: 76px;;
+  }
+  .banner-img p {
+    font-size: 50px;
+    bottom: 23px;
+    line-height: 47px;
+  }
+  .banner-img p span {
+    font-size: 26px;
+  }
+  .product-text { 
+    width: 87%;
+  }
+  .product-text button {
+    font-size: 23px;
+  }
+  .product-text h2 {
+    font-size: 48px;
+  }
+  .product-text p {
+    font-size: 16px;
+  }
+  .productcontent-text h2 {
+    margin-bottom: 16px;
+    font-size: 36px;
+  }
+  .productcontent-text p {
+    font-size: 16px;
+    margin: 0px 0px 28px;
+  }
+  .productcontent-text button {
+    padding: 12px 28px;
+  }
+  .productcontent-text a {
+    font-size: 16px;
+  }
+  section.events {
+    padding: 60px 0px;
+  }
+  .event-text {
+    padding: 40px 43px 0px 5px;
+  }
+  .event-text p {
+    padding: 0px 0px 60px 0px;
+  }
+  .event-text span {
+    width: 17px;
+    height: 17px;
+  }
+  section.bookings {
+    padding: 60px 0px 65px 0px;
+  }
+  .booking-content h2 {
+    font-size: 46px;
+  }
+  .form-img img {
+    max-width: 59px;
+  }
+  .booking-form input {
+    width: 330px;
+    padding: 12px 0px 12px 12px;
+    margin: 0px 0px 23px 23px;
+    font-size: 20px;
+  }
+  .booking-text::before {
+    width: 220px;
+    height: 221px;
+    margin-top: -16em;
+  }
+  .booking-text::after {
+    margin-top: 1em;
+    width: 219px;
+    height: 334px;
+  }
+  footer {
+    padding: 60px 0px;
+  }
+  .footer-text {
+    margin-top: 70px;
+    padding: 0px 47px 0px 45px;
+  }
+  .footer-text img {
+    max-width: 300px;
+    margin-bottom: 35px;
+  }
+  .footer-text p {
+    font-size: 16px;
+    padding: 0px 0px 150px 0px;
+  }
+  .address {
+    padding: 18px 0px 0px 0px;
+  }
+}
+
+@media only screen and ( max-width:1200px) {
+  .menu p {
+    font-size: 16px;
+  } 
+  .event-text {
+    padding: 40px 44px 0px 5px;
+  }
+  .event-text h2 {
+    font-size: 36px;
+  }
+  .event-text p {
+    font-size: 16px;
+  }
+  .event-img img {
+    max-width: 100%;
+  }
+  .booking-form input {
+    width: 290px;
+  }
+  .address {
+    padding: 60px 0px 0px 0px;
+  }
+  .address h2 {
+    padding-left: 10em;
+  }
+}
+
+@media only screen and ( max-width:1024px) {  
+  .logo img {
+    max-width: 216px;
+  }
+  .menu p {
+    font-size: 15px;
+  }
+  .menu li {
+    margin-left: 70px;
+  }
+  .banner-text {
+    padding: 115px 0px 0px 0px;
+  } 
+  .banner-text h1 {
+    font-size: 76px;
+    line-height: 60px;
+  }
+  .banner-text h1 span {
+    font-size: 38px;
+  }
+  .banner-text p {
+    margin: 0px 0px 30px 0px;
+    padding: 4px 13px;
+    font-size: 15px;
+  }
+  .banner-img p {
+    font-size: 29px;
+    bottom: 2px;
+  }
+  .banner-img p span {
+    font-size: 20px;
+  }
+  .img-content {
+    gap: 28px;
+  }
+  .new-text {
+    font-size: 16px;
+    margin: 0px 0px 0px 18px;
+  }
+  .new-text h2 {
+    font-size: 26px;
+  }
+  .product-text {
+    width: 96%;
+  }
+  .product-text h2 {
+    font-size: 46px;
+    margin: 0px 0px 16px 0px;
+  }
+  .product-text p {
+    font-size: 15px;
+  }
+  .productcontent {
+    gap: 1em;
+  }
+  .productcontent-text img {
+    margin-bottom: 60px;
+    width: 260px;
+  }
+  .productcontent-text h2 {
+    margin-bottom: 14px;
+    font-size: 34px;
+  }
+  .productcontent-text p {
+    font-size: 14px;
+    margin: 0px 0px 24px;
+  }
+  .productcontent-text img {
+    margin-bottom: 22px;
+    width: 220px;
+  }
+  .productcontent-text:nth-child(2n) img {
+    margin-bottom: 10px;
+  }
+  .event-text {
+    padding: 15px 0px 0px 0px;
+  }
+  .event-text h3 {
+    font-size: 26px;
+  }
+  .event-text h2 {
+    font-size: 26px;
+    margin: 0px 0px 25px 0px;
+  }
+  .event-text p {
+    font-size: 15px;
+    padding: 0px 0px 30px 0px;
+  }
+  .booking-text {
+    gap: 0em;
+  }
+  .booking-text::before {
+    width: 192px;
+    height: 193px;
+    margin-top: -15em;
+  }
+  .booking-text::after {
+    margin-top: 2em;
+    width: 201px;
+    height: 305px;
+  }
+  .booking-text::before {
+    width: 192px;
+    height: 193px;
+    margin-top: -15em;
+  }
+  .booking-form input {
+    width: 275px;
+  }
+  .footer-text {
+    margin-top: 60px;
+    padding: 0px 0px 0px 35px;
+  }
+  footer {
+    padding: 50px 0px;
+  }
+  .footer-text p {
+    font-size: 15px;
+    padding: 0px 0px 140px 0px;
+  }
+  .address {
+    padding: 30px 0px 0px 0px;
+  }
+  .address h2 {
+    padding-left: 7em;
+    margin-bottom: 18px;
+    font-size: 19px;
+  }
+  .address h2::before {
+    width: 26px;
+    height: 30px;
+    margin: -5px 0px 0px -50px;
+  }
+  .address h2:last-child::before {
+    margin: 0px 0px 0px -48px;
+  }
+}
+
+@media only screen and ( max-width:768px) {
+  .menu {
+    display: none;
+  }
+  .banner-text {
+    padding: 80px 0px 0px 0px;
+  }
+  .banner-text p {
+    margin: 0px 0px 25px 0px;
+    padding: 2px 7px;
+    font-size: 14px;
+  }
+  .banner-text h1 {
+    font-size: 65px;
+    line-height: 42px;
+  }
+  .banner-text h1 span {
+    font-size: 29px;
+  }
+  .banner-img p {
+    font-size: 23px;
+    bottom: 1px;
+    line-height: 30px;
+  }
+  .banner-img p span {
+    font-size: 15px;
+  }
+  section.new {
+    padding: 55px 0px;
+  }
+  .img-content {
+    grid-template-columns: 1fr;
+    gap: 21px;
+  }
+  .item1 {
+    order: 1;
+    grid-row: span1;
+  }
+  .item3 {
+    order: 2;
+  }
+  .new-text {
+    top: 27%;
+  }
+  .item2 .new-text {
+    top: 2%;
+  }
+  .item3 .new-text {
+    top: 79%;
+  }
+  .product-text button {
+    font-size: 20px;
+    padding: 4px 20px;
+  }
+  .product-text h2 {
+    font-size: 40 px;
+    margin: 0px 0px 12px 0px;
+  }
+  .product-text p {
+    font-size: 12px;
+  }
+  .productcontent {
+    gap: 2em;
+    grid-template-columns: 1fr;
+    padding: 40px 0px;
+  }
+  .productcontent-text img {  
+    margin-bottom: 24px;
+  }
+  .productcontent-text h2 {
+    margin-bottom: 10px;
+    font-size: 32px;
+  }
+  .productcontent-text button {
+    padding: 10px 24px;
+  }
+  section.events {
+    padding: 40px 0px;
+  }
+  .event-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .event-img {
+    margin: 0 auto;
+  }
+  .event-text {
+    padding: 20px 0px 0px 0px;
+    order: 1;
+  }
+  .event-text h2 {
+    margin: 0px 0px 20px 0px;
+  }
+  .event-text p {
+    padding: 0px 30px 50px 30px;
+  }
+  .event-text span {
+    width: 15px;
+    height: 15px;
+  }
+  section.bookings {
+    padding: 40px 0px 45px 0px;
+  }
+  .booking-content h4 {
+    margin-bottom: 10px;
+  }
+  .booking-content h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  .booking-text {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3em;
+  }
+  .booking-text::before {
+    width: 130px;
+    height: 119px;
+    margin-top: -11em;
+  }
+  .booking-text::after {
+    margin-top: 28em;
+    width: 161px;
+    height: 246px;
+  }
+  .form-img img {
+    max-width: 49px;
+  }
+  .booking-form {
+    display: grid;
+    grid: inherit;
+    margin: 0 auto;
+  }
+  .booking-form input {
+    margin: 0px 0px 18px 0px;
+    width: 330px;
+    font-size: 18px;
+    padding: 10px 0px 10px 12px;
+  }
+  .booking-form input:nth-of-type(odd) {
+    margin: 0px 0px 18px 0px;
+  }
+  footer {
+    padding: 40px 0px;
+  }
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+  .footer-text {
+    padding: 0px 130px;
+  }
+  .footer-text p {
+    padding: 0px 0px 45px 0px;
+  }
+  .address {
+    padding: 0px;
+  }
+  .address h2 {
+    padding-left: 10em;
+    margin-bottom: 25px;
+  }
+  .copyright {
+    order: 1;
+  }
+  .copyright p {
+    padding: 0px 0px 0px 141px;
+  }
+  .socialicons ul {
+    margin: 0px 0px 30px 0px;
+    padding: 0px 0px 0px 141px;
+  }
+  .socialicons {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .inner-header {
+    padding: 25px 0px 0px 0px;
+  }
+  .banner {
+    padding: 0px 0px 30px 0px;
+  }
+  .banner-text {
+    padding: 50px 0px 0px 0px;
+  }
+  .banner-text p {
+    padding: 1px 5px;
+    font-size: 10px;
+    margin: 0px 0px 20px 0px;
+  }
+  .banner-text h1 {
+    font-size: 50px;
+    line-height: 40px;
+  }
+  .banner-text h1 span {
+    font-size: 27px;
+  }
+  .banner-img p {
+    font-size: 17px;
+    bottom: -5px;
+    line-height: 24px;
+  }
+  .banner-img p span {
+    font-size: 11px;
+  }
+  section.new {
+    padding: 45px 0px;
+  }
+  .new-text {
+    font-size: 14px;
+    margin: 0px 0px 0px 8px;
+  }
+  .new-text h2 {
+    font-size: 20px;
+  }
+  .img-content {
+    gap: 16px;
+  }
+  .product-text button {
+    font-size: 18px;
+    padding: 3px 18px;
+    margin: 0px 0px 20px 0px;
+  }
+  .product-text {
+    width: 88%;
+  }
+  .productcontent {
+    padding: 30px 0px;
+  }
+  .productcontent-text img {
+    margin-bottom: 20px;
+    width: 220px;
+  }
+  .productcontent-text h2 {
+    margin-bottom: 5px;
+    font-size: 30px;
+  }
+  .productcontent-text button {
+    padding: 8px 20px;
+  }
+  .productcontent-text a {
+    font-size: 14px;
+  }
+  .productcontent-text p {
+    margin: 0px 0px 20px;
+  }
+  .product-text p {
+    margin: 0;
+  }
+  .product-text h2 {
+    font-size: 36px;
+  }
+  .event-text {
+    padding: 15px 0px 0px 0px;
+  }
+  .event-text p {
+    padding: 0px 20px 50px 19px;
+    font-size: 12px;
+  }
+  .booking-content h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  .form-img img {
+    max-width: 38px;
+  }
+  section.bookings {
+    padding: 30px 0px 35px 0px;
+  }
+  .booking-form input {
+    width: 300px;
+  }
+  .booking-text {
+    gap: 2em;
+  }
+  .booking-text::before {
+    display: none;
+  }
+  .booking-text::after {
+    display: none;
+  }
+  .footer-text {
+    padding: 0px 37px;
+  }
+  .footer-text img {
+    max-width: 235px;
+    margin-bottom: 22px;
+  }
+  .footer-text p {
+    padding: 0px 0px 30px 0px;
+  }
+  .address h2 {
+    padding-left: 90px;
+    margin-bottom: 16px;
+    font-size: 17px;
+  }
+  .socialicons ul {
+    padding: 0px 0px 0px 41px;
+    margin: 0px 0px 24px 0px;
+  }
+  .socialicons ul li a img {
+    max-width: 26px;
+  }
+  .copyright p {
+    padding: 0px 0px 0px 41px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .logo img {
+    max-width: 160px;
+  }
+  .banner-text {
+    padding: 15px 0px 0px 0px;
+  }
+  .banner-text p {
+    font-size: 9px;
+    margin: 0px 0px 10px 0px;
+  }
+  .banner-text h1 {
+    font-size: 40px;
+    line-height: 34px;
+  }
+  .banner-text h1 span {
+    font-size: 22px;
+  } 
+  .banner-img p {
+    font-size: 13px;
+    bottom: -9px;
+    left: 58%;
+    line-height: 15px;
+  }
+  .img-content {
+    gap: 11px;
+  }
+  .img-content img {
+    border-radius: 8px;
+  }
+  section.new {
+    padding: 30px 0px;
+  }
+  .product-text {
+    width: 84%;
+  }
+  .product-text button {
+    font-size: 15px;
+    padding: 2px 14px;
+    margin: 0px 0px 15px 0px;
+  }
+  .product-text h2 {
+    font-size: 28px;    
+    margin: 0px 0px 8px 0px;
+  }
+  .product-text p {
+    font-size: 10px;
+  }
+  .productcontent {
+    padding: 15px 0px;
+  }
+  .productcontent-text img {
+    margin-bottom: 12px;
+    width: 185px;
+  }
+  .productcontent-text h2 {
+    margin-bottom: 5px;
+    font-size: 25px;
+  }
+  .productcontent-text p {
+    margin: 0px 0px 13px;
+    font-size: 10px;
+  }
+  .productcontent-text button {
+    padding: 5px 14px;
+  }
+  .productcontent-text a {
+    font-size: 12px;
+  }
+  .event-text h3 {
+    font-size: 24px;
+  }
+  .event-text h2 {
+    margin: 0px 0px 10px 0px;
+    font-size: 20px;
+  }
+  .event-text p {
+    padding: 0px 7px 35px 7px;
+    font-size: 10px;
+  }
+  .event-text span {
+    width: 13px;
+    height: 13px;
+  }
+  .booking-content h4 {
+    font-size: 24px;
+  }
+  .booking-content h2 {
+    font-size: 28px;
+  }
+  .booking-form input {
+    margin: 0px 0px 14px 0px;
+    font-size: 16px;
+    width: 250px;
+  }
+  footer {
+    padding: 30px 0px;
+  }
+  .footer-text {
+    padding: 0px 20px;
+  }
+  .footer-text img {
+    max-width: 160px;
+    margin-bottom: 20px;
+  }
+  .footer-text p {
+    font-size: 12px;
+  }
+  .address h2 {
+    padding-left: 62px;
+    margin-bottom: 16px;
+    font-size: 15px;
+  }
+  .address h2::before {
+    width: 21px;
+    height: 23px;
+    margin: -4px 0px 0px -40px;
+  }
+  .address h2:last-child::before {
+    margin: 0px 0px 0px -40px;
+  }
+  .socialicons ul {
+    padding: 0px 0px 0px 23px;
+  }
+  .socialicons ul li a img {
+    max-width: 20px;
+  }
+  .copyright p {
+    padding: 0px 0px 0px 24px;
+  }
+}

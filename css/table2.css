@@ -1,0 +1,13 @@
+table, td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 15px 36px 15px 16px;
+}
+table.t-head th {
+  padding: 12px;
+  background-color: #57595a;
+  color: #ffffff;
+}
+tr:nth-last-child(2){
+  background-color: #f9fafb;
+}

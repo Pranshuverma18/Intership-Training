@@ -1,0 +1,154 @@
+header {
+  padding: 8px 0px;
+  background: #f3f3f3;
+}
+.logo h2 {
+  font-size: 22px;
+  margin-top: 5px;
+}
+.prof-button {
+  text-align: right;
+}
+.prof-button button {
+  border: none;
+  background: #006cf3;
+  color: #ffffff;
+  padding: 10px 12px;
+  border-radius: 6px;
+}
+
+section.banner {
+  background-image: url(../images/ocean.png);
+  padding: 180px 0px;
+  background-size: cover;
+}
+.banner-text {
+  text-align: center;
+}
+.banner-text p {
+  color: #ffffff;
+  font-size: 45px;
+  margin-bottom: 40px ;
+}
+.banner-mail {
+  padding: 18px 0px 18px 20px;
+  border-radius: 6px;
+  max-width: 500px;
+} 
+button.banner-button {
+  margin-left: 18px;
+  padding: 18px 20px;
+  border: none;
+  color: #ffffff;
+  background: #006cf3;
+  border-radius: 5px;
+}
+
+section.feature {
+  padding: 100px 0px;
+  background: #f3f3f3;
+}
+.changes {
+  text-align: center;
+}
+.changes svg {
+  margin-bottom: 15px;
+}
+.changes h2 {
+  font-size: 30px;
+}
+.changes p {
+  font-size: 20px;
+  color: #444444;
+}
+
+ /* content section */
+.center-text {
+  position: relative;
+  padding: 0px;
+}
+.content-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%; 
+}
+.content-img img {
+  max-width: 100%;
+}
+
+section.reviews {
+  padding: 100px 0px;
+  background: #f3f3f3;
+}
+.review-text {
+  text-align: center;
+}
+.review-text .size {
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+.review-text img {
+  border-radius: 50%;
+  width: 50%;
+  margin-bottom: 15px;
+}
+.review-text h2 {
+  font-size: 22px;
+}
+
+
+section.footbanner {
+  background-image: url(../images/ocean.png);
+  padding: 130px 0px;
+  background-size: cover;
+}
+.footbanner-text {
+  text-align: center;
+}
+.footbanner-text p {
+  color: #ffffff;
+  font-size: 32px;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+.footer-mail  {
+  padding: 18px 0px 18px 20px;
+  border-radius: 6px;
+  max-width: 500px;
+} 
+button.footer-button {
+  margin-left: 18px;
+  padding: 18px 20px;
+  border: none;
+  color: #ffffff;
+  background: #006cf3;
+  border-radius: 5px;
+}
+footer{
+  padding: 50px 0px;
+}
+.footer-menu ul {
+  margin: 0px;
+}
+.footer-menu li {
+  display: inline;
+}
+.footer-menu a {
+  text-decoration: none;
+  padding-left: 20px;
+}
+.footer-menu p {
+  margin: 18px 0px 0px 50px;
+}
+.footer-icon {
+  text-align: center;
+  margin-top: 18px;
+}
+.footer-icon a {
+  text-decoration: none;
+}
+.footer-icon a:nth-child(even) {
+  margin: 0px 16px;
+}
